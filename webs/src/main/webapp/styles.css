@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* Estilo para la tabla */
+/* Estilo para el encabezado */
+th {
+    background-color: #4CAF50; /* Color verde para el encabezado */
+    color: white; /* Texto blanco */
+    padding: 10px 15px; /* Un poco de espacio en las celdas */
+    text-align: left; /* Alineación de texto a la izquierda */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para el encabezado */
+}
+
+/* Estilo para las celdas de la tabla */
+td {
+    padding: 8px 15px; /* Espaciado dentro de las celdas */
+    text-align: left;
+    background-color: #f2f2f2; /* Fondo claro para las celdas */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil en las celdas */
+}
+
+/* Efecto hover para las celdas de la tabla */
+td:hover {
+    background-color: #ddd; /* Color de fondo más oscuro cuando el ratón pasa sobre la celda */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada al pasar el ratón */
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #007BFF; /* Color azul para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    padding: 5px 10px; /* Espaciado alrededor del enlace */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Efecto hover para los enlaces */
+a:hover {
+    color: red; /* Cambiar el color a rojo al pasar el ratón */
+    background-color: #f2f2f2; /* Fondo gris claro al pasar el ratón */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil al pasar el ratón */
+}
+
+/* Estilo para el encabezado de la página */
+h1 {
+    text-align: center;
+    color: #333; /* Color de texto oscuro */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+}
+
+/* Estilo para los enlaces del pie de página */
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: underline;
+}
+

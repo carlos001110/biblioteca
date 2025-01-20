@@ -7,6 +7,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="styles.css" />
+
 <meta charset="UTF-8">
 <title>Listado de Direcciones</title>
 </head>
@@ -44,7 +46,7 @@
             <td><%= d.getCalle() %></td>
             <td><%= d.getNumero() %></td>
             <td><%= d.getCodigopostal() %></td>
-<td><a href="borrardireccionjdbc.jsp?dni=<%= d.getDni() %>&calle=<%= d.getCalle() %>&numero=<%= d.getNumero() %>">Borrar</a></td>
+<td><a href="borrardireccion.jsp?dni=<%= d.getDni() %>&calle=<%= d.getCalle() %>&numero=<%= d.getNumero() %>">Borrar</a></td>
         </tr>
     <% } %>
 </tbody>
